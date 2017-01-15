@@ -1,0 +1,44 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.khinekhant.crimereporter.CrimeListFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/crime_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:id="@+id/add_new_crime_for_plain_layout"
+                  android:gravity="center">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/inform_user_for_plain"
+            android:textStyle="bold|italic"
+            android:padding="10dp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_new_crime_for_plain"
+            android:src="@drawable/ic_action_add_for_plain"
+            android:background="#07f6da"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            />
+
+    </LinearLayout>
+
+
+</FrameLayout>
+

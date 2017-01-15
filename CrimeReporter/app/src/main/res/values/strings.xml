@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CrimeReporter</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="show_subtitle">Show Sub</string>
+    <string name="hide_subtitle">Hide Sub</string>
+    <string name="new_crime">New Crime</string>
+    <string name="inform_text">List is empty, Please add a crime.</string>
+    <string name="choose_suspect_button">Choose Suspect</string>
+    <string name="crime_report_button">Send Crime Report</string>
+     <string name="crime_report">%1$s!
+    The crime was discovered on %2$s. %3$s, and %4$s
+    </string>
+    <string name="crime_report_solved">The case is solved</string>
+    <string name="crime_report_unsolved">The case is not yet solved</string>
+    <string name="crime_report_suspect">The case has suspect and is %s</string>
+    <string name="crime_report_no_suspect">The case has no suspect</string>
+    <string name="crime_report_subject">Crime Report </string>
+    <string name="chooser_text">Send Report by selecting one of the following action</string>
+    <plurals name="sub_title">
+        <item quantity="zero">%1s crime</item>
+        <item quantity="one">%1s crime</item>
+        <item quantity="other">%1s crimes</item>
+    </plurals>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.khinekhant.crimereporter.CrimeFragment"
+              android:background="@android:color/holo_blue_bright">
+
+  <include layout="@layout/view_camera_and_title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DETAIL"
+        android:textStyle="bold"
+        style="?android:listSeparatorTextViewStyle"
+        />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="10dp"
+    >
+
+    <Button
+        android:id="@+id/date_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:layout_weight="2"
+        />
+    <Button
+        android:id="@+id/time_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:paddingLeft="4dp"
+        />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="10dp">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/choose_suspect_button"
+        android:id="@+id/choose_suspect_button"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/crime_report_button"
+        android:id="@+id/crime_report_button"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/call_suspect_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Suspect"
+       android:layout_marginRight="10dp"
+        android:drawableLeft="@drawable/ic_action_dial"
+        android:layout_gravity="end"
+        />
+
+</LinearLayout>
